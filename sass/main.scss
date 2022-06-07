@@ -1,8 +1,11 @@
-@import "./utils/variables";
+@import "./base/normalize";
 
+@import "./utils/mixins";
 
-@import "./components/visually-hidden";
+@import "./components/base";
 @import "./components/program";
+@import "./components/benefits";
+
 
 
 

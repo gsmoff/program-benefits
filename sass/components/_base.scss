@@ -1,0 +1,57 @@
+$accent-color: #FF6B09;
+$bg-color-white: #FFFFFF;
+$bg-color-dark: #111518;
+$bg-color-lightgrey: #F1F1F1;
+
+$text-color-dark: #111518;
+$text-color-lightgrey: #B9B9B9;
+$text-color-white: #FFFFFF;
+$text-color-grey: #3D3D3D;
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.08em;
+    color: $text-color-white;
+    // background-color: $text-color-dark;
+}
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        @include mobile{
+            width: 480px;
+        }
+        @include tablet{
+            padding-left: 32px;
+            padding-right: 32px;
+            width: 768px;
+        }
+        @include desktop{
+            padding-left: 16px;
+            padding-right: 16px;
+            width: 1680px;
+        }
+
+}

@@ -1,73 +1,22 @@
-$accent-color: #FF6B09;
-$bg-color-white: #FFFFFF;
-$bg-color-dark: #111518;
-$bg-color-lightgrey: #F1F1F1;
-
-$text-color-dark: #111518;
-$text-color-lightgrey: #B9B9B9;
-$text-color-white: #FFFFFF;
-$text-color-grey: #3D3D3D;
-
-h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
-}
-
-body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.56;
-    letter-spacing: 0.08em;
-    color: $text-color-white;
-    background-color: $bg-color-dark;
-}
-ul,
-ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-.conteiner__program {
-    margin: 0 auto;
-    @media screen and (min-width: 480px) {
-        width: 480px;
-    }
-
-    @media screen and (min-width: 768px) {
-        width: 768px;
-    }
-
-    @media screen and (min-width: 1680px) {
-        width: 1680px;
-    }
-}
-
 
 .program {
-    margin: 0;
-    width: 100%;
+    margin: 0 auto;
+
  
     @media screen and (max-width: 1679px) {
         padding-top: 60px;
+        padding-bottom: 184px;
     }
 
     @media screen and (max-width: 767px) {
         padding-top: 40px;
         margin: 0;
+        
     }
     @media screen and (min-width: 1680px) {
-        width: 1680px;
+        // width: 1680px;
         padding-top: 80px;
-        padding-bottom: 80px;
+        padding-bottom: 288px;
     }
 
     background-color: $text-color-dark;
@@ -155,7 +104,7 @@ img {
     @media screen and (max-width: 1679px) {
         position: relative;
         padding: 0;
-        margin-left: 103px;
+        margin-left: 62px;
         padding-bottom: 110px;
     }
 
@@ -395,7 +344,7 @@ img {
         position: absolute;
         content: "";
         right: 0;
-        bottom: 0;
+        bottom: -10px;
         width: 368px;
         height: 268px;
         background-repeat: no-repeat;
@@ -437,7 +386,7 @@ img {
         position: absolute;
         content: "";
         right: 0;
-        bottom: 0;
+        bottom: -35px;
         width: 150px;
         height: 137px;
         background-repeat: no-repeat;
