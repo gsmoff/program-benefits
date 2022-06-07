@@ -1,0 +1,30 @@
+    @mixin font($fw, $fs, $lh, $ls) {
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;
+    letter-spacing: $ls;
+}
+    %centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin colorize($colors, $baseSelector) {
+    @each $color in $colors {
+        $idx: index($colors, $color);
+
+        #{$baseSelector}:nth-child(#{$idx}) {
+            background-color: #{$color};
+        }
+    }
+}
+%list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+%link {
+    text-decoration: none;
+    color: currentColor;
+}
