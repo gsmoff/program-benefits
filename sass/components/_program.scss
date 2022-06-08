@@ -11,10 +11,10 @@
     @media screen and (max-width: 767px) {
         padding-top: 40px;
         margin: 0;
-        
+    
+    
     }
     @media screen and (min-width: 1680px) {
-        // width: 1680px;
         padding-top: 80px;
         padding-bottom: 288px;
     }
@@ -105,12 +105,12 @@
         position: relative;
         padding: 0;
         margin-left: 62px;
-        padding-bottom: 110px;
+        padding-bottom: 120px;
     }
 
     @media screen and (max-width: 767px) {
-        // 
-    }
+        margin-bottom: 400px;
+    }  
 }
 
 
